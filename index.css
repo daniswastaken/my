@@ -87,12 +87,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.span {
-  background: linear-gradient(91.22deg, #ff00b8, #004bdd 77%, #8f00ff);
-}
-.danis {
-  background: linear-gradient(90.8deg, #ff00b8, #004bdd 62.5%, #8f00ff);
-}
 .hiya-i-am-container {
   align-self: stretch;
   position: relative;
