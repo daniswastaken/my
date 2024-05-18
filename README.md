@@ -1,2 +1,2 @@
 ## Information 📌
-This is my GitHub page portfolio.
+This is my portfolio hosted on GitHub page.
