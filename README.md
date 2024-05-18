@@ -1,2 +1,2 @@
-## Info
-This is my portfolio.
+## Information
+This is my GitHub page portfolio.
