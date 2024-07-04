@@ -85,6 +85,7 @@
   justify-content: flex-start;
   gap: 44px;
   text-align: right;
+  display: none;
 }
 .danis,
 .span {
@@ -129,4 +130,20 @@
   font-size: var(--pj-bold-16-size);
   color: var(--gray-900);
   font-family: var(--pj-bold-52);
+}
+
+@media (min-width: 768px) {
+  .cta {
+    display: flex;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .daniswastaken {
+    position: relative; /* Remove absolute positioning on phones */
+    left: 0; /* Reset left property */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Center text horizontally */
+  }
 }
