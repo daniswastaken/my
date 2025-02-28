@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pohon Waktu</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <style>
+        /* Make sure HTML and Body take full height */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Center the content */
+        body {
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            /* Centers horizontally */
+            align-items: center;
+            /* Centers vertically */
+            background-color: #212121;
+            min-height: 100vh;
+            /* Ensures full height */
+            padding: 20px;
+            /* Ensures space on all sides */
+            box-sizing: border-box;
+            /* Prevents overflow issues */
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Artwork box */
+        .artwork {
+            display: flex;
+            flex-direction: column;
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 32px 8px black;
+            margin-bottom: 20px;
+            /* Ensures space below */
+        }
+
+        /* Artwork image */
+        .artwork img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Artwork text content */
+        .artwork-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            padding: 0px;
+            margin-top: 12px;
+        }
+
+        /* Adjusting text appearance */
+        .artwork p {
+            color: #555;
+        }
+
+        .artwork-info h1,
+        .artwork-info p {
+            margin: 3px;
+        }
+
+        /* Details section */
+        .artwork-details {
+            display: table;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .artwork-details div {
+            display: table-row;
+        }
+
+        .artwork-details span {
+            display: table-cell;
+            padding: 3px 5px;
+        }
+
+        .artwork-details span:nth-child(1) {
+            /* Label */
+            font-weight: bold;
+            color: #1D1616;
+            width: 100px;
+        }
+
+        .artwork-details span:nth-child(2) {
+            /* Colon */
+            font-weight: bold;
+            color: #1D1616;
+            width: 10px;
+            text-align: center;
+        }
+
+        .artwork-details span:nth-child(3) {
+            /* Explanation */
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                /* Make mobile version take more space */
+            }
+
+            .artwork {
+                padding: 20px;
+            }
+        }
+
+            /* Desktop layout */
+            @media (min-width: 768px) {
+                .artwork {
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                .artwork img {
+                    width: 50%;
+                    margin-right: 16px;
+                }
+
+                .artwork-info {
+                    width: 50%;
+                }
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="artwork">
+            <img src="../images/art/danis.jpeg" alt="Artwork 1">
+            <div class="artwork-info">
+                <h1>Pohon Waktu</h1>
+                <p>Jangan menebang pohon sembarangan karena pohon memerlukan waktu yang lama untuk tumbuh.</p>
+                <p>Jarum jam menunjukkan pukul 00:10 menyimbolkan kehidupan pohon yang masih baru.</p>
+                <p>Api menyimbolkan kerusakan yang dilakukan oleh manusia.</p>
+                <br>
+
+                <div class="artwork-details">
+                    <div><span>Aliran</span> <span>:</span> <span>Surealis.</span></div>
+                    <div><span>Tema</span> <span>:</span> <span>Manusia dengan alam khayal.</span></div>
+                    <div><span>Tujuan</span> <span>:</span> <span>Untuk menyampaikan pesan agar manusia tidak melakukan
+                            penebangan pohon berlebih.</span></div>
+                    <div><span>Teknik</span> <span>:</span> <span>Plakat.</span></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
