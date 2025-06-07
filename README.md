@@ -1,5 +1,2 @@
 ## Information 📌
-This is my portfolio hosted on GitHub page.
-
-## Update !!!
-Used for 2nd project, which is my school class art gallery
+This is me Danis, nice to meet you! And welcome to my portfolio website repository.
