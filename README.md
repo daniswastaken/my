@@ -1,2 +1,2 @@
 ## Information 📌
-This is me Danis, nice to meet you! And welcome to my portfolio website repository.
+Hello there, I'm Danis. Nice to meet you! Welcome to  my portfolio website repository.
