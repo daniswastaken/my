@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>daniswastaken</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/home.css" />
+    </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>daniswastaken</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/navbar.css" />
-  <link rel="stylesheet" href="css/home.css" />
-</head>
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
 
-<body>
-  <!-- Navbar -->
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Project</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+        <!-- Hero Section --------------------------------------------------------------------------->
+        <section class="hero">
+            <!-- Particles.js ------------------------------------------------------------------------->
+            <div id="particles-js"></div>
 
-  <!-- Hero Section --------------------------------------------------------------------------->
-  <section class="hero">
-    <!-- Particles.js ------------------------------------------------------------------------->
-    <div id="particles-js"></div>
+            <!-- Home section ------------------------------------------------------------------------->
+            <div class="home">
+                <h1>daniswastaken</h1>
+                <p>Programmer && <span id="element"></span></p>
+            </div>
+        </section>
 
-    <!-- Home section ------------------------------------------------------------------------->
-    <div class="home">
-      <h1>daniswastaken</h1>
-      <p>Programmer && <span id="element"></span></p>
-    </div>
-  </section>
+        <!-- Scripts -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+                        function shuffleArray(array) {
+              for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+              }
+              return array;
+            }
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Linux Enthusiast', 'Students', 'Gamer'],
-      typeSpeed: 40,
-      backSpeed: 20,
-      loop: true
-    });
-  </script>
+            const strings = [
+              "Linux Enthusiast",
+              "Backend Developer",
+              "Student",
+              "Gamer",
+              "Bug Hunter",
+              "Tech Enthusiast",
+              "Night Owl",
+              "Modder",
+              "Pixel",
+              "Coder",
+              "Learner",
+              "Bug",
+              "Developer",
+              "Problem Solver",
+              "Coder",
+              "Crash"
+            ];
 
-  <script src="particles.min.js"></script>
-  <script src="js/particles.js"></script>
-</body>
+            const randomizedStrings = shuffleArray(strings);
 
+            var typed = new Typed('#element', {
+              strings: randomizedStrings,
+              typeSpeed: 50,
+              backSpeed: 30,
+              loop: true
+            });
+        </script>
+
+        <script src="particles.min.js"></script>
+        <script src="js/particles.js"></script>
+    </body>
 </html>
