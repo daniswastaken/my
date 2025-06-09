@@ -1,12 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+@import url("https://fonts.cdnfonts.com/css/junicode");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
 html,
 body {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden;
-    font-family: sans-serif;
 }
 
+/* Navbar CSS */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background: rgba(0, 0, 0, 0.5); /* transparent black glass effect */
+    color: white;
+    z-index: 999;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-variation-settings: "wdth" 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav li a {
+    display: block;
+    padding: 16px 32px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+nav li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+}
+
+/* Hero Section CSS */
 #particles-js {
     position: absolute;
     width: 100%;
@@ -24,20 +72,45 @@ body {
 }
 
 .hero {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+    flex-direction: column; /* stack children vertically */
 }
 
 #particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
+.home {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    pointer-events: none;
+}
 
+.home h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin-bottom: 0.2em;
+}
 
+.home p {
+    margin-top: 0em;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.1rem;
+}

@@ -4,8 +4,10 @@
         <meta charset="UTF-8" />
         <title>daniswastaken</title>
         <link rel="stylesheet" href="css/styles.css" />
+        <!--
         <link rel="stylesheet" href="css/navbar.css" />
         <link rel="stylesheet" href="css/home.css" />
+        -->
     </head>
 
     <body>
@@ -34,39 +36,39 @@
         <!-- Scripts -->
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         <script>
-                        function shuffleArray(array) {
-              for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-              }
-              return array;
+            function shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
             }
 
             const strings = [
-              "Linux Enthusiast",
-              "Backend Developer",
-              "Student",
-              "Gamer",
-              "Bug Hunter",
-              "Tech Enthusiast",
-              "Night Owl",
-              "Modder",
-              "Learner",
-              "Developer",
-              "Problem Solver",
-              "Coder",
-              'Technician',
-              'Debugging Wizard',
-              'Commit Master'
+                "Linux Enthusiast",
+                "Backend Developer",
+                "Student",
+                "Gamer",
+                "Bug Hunter",
+                "Tech Enthusiast",
+                "Night Owl",
+                "Modder",
+                "Learner",
+                "Developer",
+                "Problem Solver",
+                "Coder",
+                "Technician",
+                "Debugging Wizard",
+                "Commit Master",
             ];
 
             const randomizedStrings = shuffleArray(strings);
 
-            var typed = new Typed('#element', {
-              strings: randomizedStrings,
-              typeSpeed: 50,
-              backSpeed: 30,
-              loop: true
+            var typed = new Typed("#element", {
+                strings: randomizedStrings,
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true,
             });
         </script>
 
