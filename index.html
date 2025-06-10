@@ -3,35 +3,46 @@
     <head>
         <meta charset="UTF-8" />
         <title>daniswastaken</title>
+
         <link rel="stylesheet" href="css/styles.css" />
-        <!--
-        <link rel="stylesheet" href="css/navbar.css" />
-        <link rel="stylesheet" href="css/home.css" />
-        -->
     </head>
 
     <body>
         <!-- Navbar -->
-        <nav>
+        <navbar>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
                 <li><a href="#">Project</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </nav>
+        </navbar>
 
         <!-- Hero Section --------------------------------------------------------------------------->
-        <section class="hero">
-            <!-- Particles.js ------------------------------------------------------------------------->
+        <section id="hero-section" class="hero">
+            <!-- Particles.js ----------------------------------------------------------------------->
             <div id="particles-js"></div>
 
-            <!-- Home section ------------------------------------------------------------------------->
+            <!-- Home section ----------------------------------------------------------------------->
             <div class="home">
                 <h1>daniswastaken</h1>
                 <p>Programmer && <span id="element"></span></p>
             </div>
         </section>
+
+        <!-- Content --------------------------------------------------------------------------------->
+        <div id="about-section" class="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Danis, a passionate programmer with a love for
+                coding and technology. I enjoy working on various projects and
+                learning new skills in the tech world.
+            </p>
+            <p>
+                Feel free to explore my projects and get in touch if you have any
+                questions or just want to chat about programming!
+            </p>
+        </div>
 
         <!-- Scripts -->
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -74,5 +85,6 @@
 
         <script src="particles.min.js"></script>
         <script src="js/particles.js"></script>
+
     </body>
 </html>

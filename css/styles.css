@@ -8,11 +8,12 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    background-color: #040404;
+
 }
 
 /* Navbar CSS */
-nav {
+navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -28,7 +29,7 @@ nav {
     font-variation-settings: "wdth" 100;
 }
 
-nav ul {
+navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,11 +37,11 @@ nav ul {
     justify-content: center;
 }
 
-nav li {
+navbar li {
     margin: 0;
 }
 
-nav li a {
+navbar li a {
     display: block;
     padding: 16px 32px;
     text-decoration: none;
@@ -49,7 +50,7 @@ nav li a {
     transition: background 0.3s;
 }
 
-nav li a:hover {
+navbar li a:hover {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 0px;
 }
@@ -114,4 +115,13 @@ nav li a:hover {
     font-optical-sizing: auto;
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.about {
+    padding-top: 10em;
+    position: relative; /* Keep relative or remove if not needed for specific positioning */
+    z-index: 1; /* Keep if you want it above particles, though not strictly necessary outside hero */
+    color: white;
+    text-align: center;
+    padding-bottom: 10em;
 }
