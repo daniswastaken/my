@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #040404;
+    background-color: #090909;
 
 }
 
@@ -60,7 +60,7 @@ navbar li a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #040404;
+    background: #010101;
     z-index: 0;
 }
 
@@ -104,7 +104,7 @@ navbar li a:hover {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-size: 3.6rem;
+    font-size: 4.5rem;
     margin-top: 0em;
     margin-bottom: 0.2em;
 }
@@ -114,14 +114,44 @@ navbar li a:hover {
     font-family: "Fira Code", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .about {
-    padding-top: 10em;
-    position: relative; /* Keep relative or remove if not needed for specific positioning */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+    flex-direction: column; /* stack children vertically */
     z-index: 1; /* Keep if you want it above particles, though not strictly necessary outside hero */
     color: white;
     text-align: center;
-    padding-bottom: 10em;
+}
+
+.about h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+}
+
+.about p {
+    margin-top: 0em;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.1rem;
+    max-width: 900px; /* limit width for better readability */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+}
+
+.about a {
+    color: #FFB22C;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make link bold */
 }
