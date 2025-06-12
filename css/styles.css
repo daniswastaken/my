@@ -165,7 +165,6 @@ navbar li a:hover {
     font-weight: bold; /* Make link bold */
 }
 
-
 /* Projects Section CSS */
 .projects {
     position: relative;
@@ -231,7 +230,7 @@ navbar li a:hover {
     color: var(--yellow);
     font-size: 28px;
     margin-top: 0px;
-    margin-bottom: 0.5em
+    margin-bottom: 0.5em;
 }
 
 .card-content p {
@@ -242,7 +241,7 @@ navbar li a:hover {
     line-height: 1.3;
 
     display: -webkit-box;
-    -webkit-line-clamp: 4; /* Limit to 3 lines */
+    -webkit-line-clamp: 4; /* Limit to x lines */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
