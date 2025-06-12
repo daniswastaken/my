@@ -155,3 +155,25 @@ navbar li a:hover {
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make link bold */
 }
+
+.projects {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+    flex-direction: column; /* stack children vertically */
+    z-index: 1; /* Keep if you want it above particles, though not strictly necessary outside hero */
+    color: white;
+    text-align: center;
+}
+
+.projects h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+}
