@@ -35,10 +35,6 @@ body {
         "contact";
 }
 
-.grid-container > div {
-    font-size: 16px;
-}
-
 /* Navbar CSS */
 nav {
     grid-area: nav;
@@ -348,6 +344,9 @@ nav li a:hover {
 @media screen and (max-width: 768px) {
     html,
     body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
         background-color: red;
     }
 
