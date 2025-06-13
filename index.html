@@ -2,9 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <title>daniswastaken</title>
 
-        <link rel="icon" type="image/png" href="./assets/icons/dw.png">
+        <link rel="icon" type="image/png" href="./assets/icons/dw.png" />
 
         <link rel="stylesheet" href="css/styles.css" />
 
@@ -15,154 +18,166 @@
     </head>
 
     <body>
-        <!-- Navbar -->
-        <nav>
-            <ul>
-                <li><a href="#hero-section">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#projects-section">Projects</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="grid-container">
+            <!-- Navbar -->
+            <nav>
+                <ul>
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
 
-        <!-- Hero Section --------------------------------------------------------------------------->
-        <section id="hero-section" class="hero">
-            <!-- Particles.js ----------------------------------------------------------------------->
-            <div id="particles-js"></div>
+            <!-- Hero Section --------------------------------------------------------------------------->
+            <section id="hero-section" class="hero">
+                <!-- Particles.js ----------------------------------------------------------------------->
+                <div id="particles-js"></div>
 
-            <!-- Home section ----------------------------------------------------------------------->
-            <div class="home">
-                <h1>daniswastaken</h1>
-                <p>Programmer && <span id="element"></span></p>
-            </div>
-        </section>
+                <!-- Home section ----------------------------------------------------------------------->
+                <div class="home">
+                    <h1>daniswastaken</h1>
+                    <p>Programmer && <span id="element"></span></p>
+                </div>
+            </section>
 
-        <!-- Content -------------------------------------------------------------------------------->
-        <!-- About ---------------------------------------------------------------------------------->
-        <section id="about-section" class="about">
-            <h1>About Me</h1>
-            <p>
-                Greetings. I'm Danis, a passionate programmer with a love for
-                coding and technology. I enjoy working on
-                <a class="section-with-link-id" href="#projects-section"
-                    >various projects</a
-                >
-                and learning new skills in the tech world.
-            </p>
-            <p>
-                I specialise in programming, especially in backend development.
-            </p>
-            <p>
-                Currently studying at
-                <a
-                    class="section-with-link-id"
-                    href="https://www.smataruna.com"
-                    target="_blank"
-                    >Taruna Senior High School.</a
-                >
-            </p>
-        </section>
-
-        <!-- Projects ----------------------------------------------------------------------------->
-        <section id="projects-section" class="projects">
-            <h1>My Projects</h1>
-
-            <!-- Cards section -------------------------------------------------------------------->
-            <div class="card-container">
-                <!-- Dendrophile Arts Gallery ----------------------------------------------------->
-                <div class="card">
-                    <a
-                        href="https://daniswastaken.github.io/dendrophile"
-                        target="_blank"
-                        class="clickable-zone"
+            <!-- Content -------------------------------------------------------------------------------->
+            <!-- About ---------------------------------------------------------------------------------->
+            <section id="about-section" class="about">
+                <h1>About Me</h1>
+                <p>
+                    Greetings. I'm Danis, a passionate programmer with a love
+                    for coding and technology. I enjoy working on
+                    <a class="section-with-link-id" href="#projects-section"
+                        >various projects</a
                     >
-                        <img
-                            src="./assets/projects_thumbnails/dendrophile_arts_gallery.jpg"
-                            alt="Dendrophile Arts Gallery"
-                            loading="eager"
-                        />
-                        <div class="card-content">
-                            <h3>dendrophile.art</h3>
-                            <p>
-                                An art gallery contains all of my classmates
-                                artworks. I made it as my contribution for my
-                                class final arts subject assignment.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Locatix --------------------------------------------------------------------------->
-                <div class="card">
+                    and learning new skills in the tech world.
+                </p>
+                <p>
+                    I specialise in programming, especially in backend
+                    development.
+                </p>
+                <p>
+                    Currently studying at
                     <a
-                        href="https://github.com/daniswastaken/Locatix"
+                        class="section-with-link-id"
+                        href="https://www.smataruna.com"
                         target="_blank"
-                        class="clickable-zone"
+                        >Taruna Senior High School.</a
                     >
-                        <img
-                            src="./assets/projects_thumbnails/locatix.jpg"
-                            alt="Locatix"
-                            loading="eager"
-                        />
-                        <div class="card-content">
-                            <h3>Locatix</h3>
-                            <p>
-                                Minecraft add-ons that hides the coordinates
-                                unless you held a specific custom item.
-                            </p>
-                        </div>
-                    </a>
-                </div>
+                </p>
+            </section>
 
-                <!-- Bedrock Perfected ----------------------------------------------------------------->
-                <div class="card">
-                    <a
-                        href="https://github.com/daniswastaken/Bedrock-Perfected-BP"
-                        target="_blank"
-                        class="clickable-zone"
-                    >
-                        <img
-                            src="./assets/projects_thumbnails/bedrock_perfected.jpg"
-                            alt="Bedrock Perfected"
-                            loading="eager"
-                        />
-                        <div class="card-content">
-                            <h3>Bedrock Perfected</h3>
-                            <p>
-                                Minecraft add-ons that's aim to overhaul vanilla
-                                Minecraft to the next levels.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
+            <!-- Projects ----------------------------------------------------------------------------->
+            <section id="projects-section" class="projects">
+                <h1>My Projects</h1>
 
-        <!-- Contacts ----------------------------------------------------------------------------->
-        <section id="contact-section" class="contact">
-            <div class="social-container">
-                <div id="social-wrap">
-                    <h1>Contact Me</h1>
-                    <ul class="social">
-                        <li>
-                            <a href="https://github.com/daniswastaken" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://discord.com/users/1114776568854749296" target="_blank">
-                                <i class="fab fa-discord"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=daniswastaken@gmail.com&su=Hello,%20Danis!" target="_blank">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
+                <!-- Cards section -------------------------------------------------------------------->
+                <div class="card-container">
+                    <!-- Dendrophile Arts Gallery ----------------------------------------------------->
+                    <div class="card">
+                        <a
+                            href="https://daniswastaken.github.io/dendrophile"
+                            target="_blank"
+                            class="clickable-zone"
+                        >
+                            <img
+                                src="./assets/projects_thumbnails/dendrophile_arts_gallery.jpg"
+                                alt="Dendrophile Arts Gallery"
+                                loading="eager"
+                            />
+                            <div class="card-content">
+                                <h3>dendrophile.art</h3>
+                                <p>
+                                    An art gallery contains all of my classmates
+                                    artworks. I made it as my contribution for
+                                    my class final arts subject assignment.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Locatix --------------------------------------------------------------------------->
+                    <div class="card">
+                        <a
+                            href="https://github.com/daniswastaken/Locatix"
+                            target="_blank"
+                            class="clickable-zone"
+                        >
+                            <img
+                                src="./assets/projects_thumbnails/locatix.jpg"
+                                alt="Locatix"
+                                loading="eager"
+                            />
+                            <div class="card-content">
+                                <h3>Locatix</h3>
+                                <p>
+                                    Minecraft add-ons that hides the coordinates
+                                    unless you held a specific custom item.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Bedrock Perfected ----------------------------------------------------------------->
+                    <div class="card">
+                        <a
+                            href="https://github.com/daniswastaken/Bedrock-Perfected-BP"
+                            target="_blank"
+                            class="clickable-zone"
+                        >
+                            <img
+                                src="./assets/projects_thumbnails/bedrock_perfected.jpg"
+                                alt="Bedrock Perfected"
+                                loading="eager"
+                            />
+                            <div class="card-content">
+                                <h3>Bedrock Perfected</h3>
+                                <p>
+                                    Minecraft add-ons that's aim to overhaul
+                                    vanilla Minecraft to the next levels.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <!-- Contacts ----------------------------------------------------------------------------->
+            <section id="contact-section" class="contact">
+                <div class="social-container">
+                    <div id="social-wrap">
+                        <h1>Contact Me</h1>
+                        <ul class="social">
+                            <li>
+                                <a
+                                    href="https://github.com/daniswastaken"
+                                    target="_blank"
+                                >
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://discord.com/users/1114776568854749296"
+                                    target="_blank"
+                                >
+                                    <i class="fab fa-discord"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=daniswastaken@gmail.com&su=Hello,%20Danis!"
+                                    target="_blank"
+                                >
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
 
         <!-- Scripts -->
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>

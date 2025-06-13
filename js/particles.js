@@ -1,7 +1,9 @@
+const isMobile = window.innerWidth <= 768;
+
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 70,
+      "value": isMobile ? 40 : 70,
       "density": {
         "enable": true,
         "value_area": 620
@@ -49,7 +51,7 @@ particlesJS("particles-js", {
       "enable": true,
       "distance": 150,
       "color": "#ffffff",
-      "opacity": 0.5,
+      "opacity": 0.6,
       "width": 1
     },
     "move": {
@@ -71,7 +73,7 @@ particlesJS("particles-js", {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": !isMobile,
         "mode": "grab"
       },
       "onclick": {
