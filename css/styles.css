@@ -256,3 +256,68 @@ nav li a:hover {
 .clickable-zone p {
     text-decoration: none;
 }
+
+.contact {
+    margin-top: 0em;
+    color: var(--white);
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+#social-wrap {
+    font-size: 30px;
+}
+
+#social-wrap h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+#social-wrap .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#social-wrap li {
+    list-style: none;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--fe-white);
+    opacity: 0.65;
+    cursor: pointer;
+    transition: opacity 0.3s ease, border-color 0.3s ease;
+}
+
+#social-wrap li:hover {
+    color: var(--white);
+    opacity: 1;
+    border-color: var(--yellow);
+}
+
+#social-wrap li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
