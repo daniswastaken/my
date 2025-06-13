@@ -193,7 +193,7 @@ navbar li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 0em;
+    margin-top: 1em;
 }
 
 .card {
