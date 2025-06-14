@@ -366,11 +366,27 @@ nav li a:hover {
         border-radius: 0px;
     }
 
+    .hero {
+        background-color: blue;
+    }
+
     .home h1 {
         font-size: 2.5rem;
     }
 
     .home p {
         font-size: 0.9rem;
+    }
+
+    .about {
+        background-color: indigo;
+    }
+
+    .projects {
+        background-color: cyan;
+    }
+
+    .contact {
+        background-color: magenta;
     }
 }
