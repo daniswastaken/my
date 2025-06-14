@@ -30,7 +30,8 @@ nav {
     width: 100%;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-    background: rgba(0, 0, 0, 0.5); /* transparent black glass effect */
+    background: rgba(0, 0, 0, 0.5);
+    /* transparent black glass effect */
     color: var(--white);
     z-index: 999;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -88,9 +89,12 @@ nav li a:hover {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    justify-content: center; /* horizontal centering */
-    align-items: center; /* vertical centering */
-    flex-direction: column; /* stack children vertically */
+    justify-content: center;
+    /* horizontal centering */
+    align-items: center;
+    /* vertical centering */
+    flex-direction: column;
+    /* stack children vertically */
 }
 
 #particles-js {
@@ -132,10 +136,14 @@ nav li a:hover {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center; /* horizontal centering */
-    align-items: center; /* vertical centering */
-    flex-direction: column; /* stack children vertically */
-    z-index: 1; /* Keep if you want it above particles, though not strictly necessary outside hero */
+    justify-content: center;
+    /* horizontal centering */
+    align-items: center;
+    /* vertical centering */
+    flex-direction: column;
+    /* stack children vertically */
+    z-index: 1;
+    /* Keep if you want it above particles, though not strictly necessary outside hero */
     color: var(--white);
     text-align: center;
 }
@@ -155,15 +163,20 @@ nav li a:hover {
     font-optical-sizing: auto;
     font-weight: 400;
     font-size: 1.1rem;
-    max-width: 900px; /* limit width for better readability */
-    margin-left: auto; /* Center align */
-    margin-right: auto; /* Center align */
+    max-width: 75vw;
+    /* limit width for better readability */
+    margin-left: auto;
+    /* Center align */
+    margin-right: auto;
+    /* Center align */
 }
 
 .about a {
     color: var(--yellow);
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make link bold */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Make link bold */
 }
 
 /* Projects Section CSS */
@@ -172,10 +185,14 @@ nav li a:hover {
     width: 100%;
     padding: 100px 0;
     display: flex;
-    justify-content: center; /* horizontal centering */
-    align-items: center; /* vertical centering */
-    flex-direction: column; /* stack children vertically */
-    z-index: 1; /* Keep if you want it above particles, though not strictly necessary outside hero */
+    justify-content: center;
+    /* horizontal centering */
+    align-items: center;
+    /* vertical centering */
+    flex-direction: column;
+    /* stack children vertically */
+    z-index: 1;
+    /* Keep if you want it above particles, though not strictly necessary outside hero */
     color: var(--white);
     text-align: center;
 }
@@ -242,7 +259,8 @@ nav li a:hover {
     line-height: 1.3;
 
     display: -webkit-box;
-    -webkit-line-clamp: 4; /* Limit to x lines */
+    -webkit-line-clamp: 4;
+    /* Limit to x lines */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -250,7 +268,8 @@ nav li a:hover {
 
 .clickable-zone {
     text-decoration: none;
-    display: block; /* ensures the <a> fills the card */
+    display: block;
+    /* ensures the <a> fills the card */
 }
 
 .clickable-zone h3,
@@ -324,6 +343,7 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 768px) {
+
     html,
     body {
         max-width: 100%;
@@ -373,7 +393,8 @@ nav li a:hover {
         margin-top: 0.2em;
         font-weight: 500;
         font-size: 1rem;
-        max-width: 80vw; /* limit width for better readability */
+        max-width: 80vw;
+        /* limit width for better readability */
         width: 100%;
         text-align: left;
     }
@@ -404,7 +425,8 @@ nav li a:hover {
         font-size: 1rem;
         line-height: 1.1;
         display: -webkit-box;
-        -webkit-line-clamp: 5; /* Limit to x lines */
+        -webkit-line-clamp: 5;
+        /* Limit to x lines */
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -434,4 +456,11 @@ nav li a:hover {
         background-color: blue;
     }
     */
+}
+
+@media screen and (min-width: 1024px) {
+    .about p {
+        max-width: 900px;
+
+    }
 }
