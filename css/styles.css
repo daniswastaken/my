@@ -384,6 +384,7 @@ nav li a:hover {
         font-weight: 500;
         font-size: 1rem;
         max-width: 80vw; /* limit width for better readability */
+        width: 100%;
         text-align: left;
     }
 
