@@ -21,18 +21,8 @@ body {
     background-color: var(--black);
 }
 
-.grid-container {
-    grid-template-areas:
-        "nav"
-        "hero"
-        "about"
-        "projects"
-        "contact";
-}
-
 /* Navbar CSS */
 nav {
-    grid-area: nav;
     position: fixed;
     top: 0;
     left: 0;
@@ -92,7 +82,6 @@ nav li a:hover {
 }
 
 .hero {
-    grid-area: hero;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -138,7 +127,6 @@ nav li a:hover {
 }
 
 .about {
-    grid-area: about;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -179,7 +167,6 @@ nav li a:hover {
 
 /* Projects Section CSS */
 .projects {
-    grid-area: projects;
     position: relative;
     width: 100%;
     padding: 100px 0;
@@ -271,7 +258,6 @@ nav li a:hover {
 }
 
 .contact {
-    grid-area: contact;
     margin-top: 0em;
     color: var(--white);
 }
@@ -339,28 +325,32 @@ nav li a:hover {
 @media screen and (max-width: 768px) {
     html,
     body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
         background-color: red;
     }
 
     nav {
         font-size: 1rem;
         font-weight: 300;
+        background-color: #ffb22c;
     }
 
-    nav ul {
-        gap: 0rem
+    nav li {
+        margin: 0;
     }
 
     nav li a {
         display: block;
-        padding: 16px;
+        padding: 16px 16px;
         text-decoration: none;
         color: var(--white);
         font-weight: bold;
+        background-color: aqua;
         transition: background 0.3s;
+    }
+
+    nav li a:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 0px;
     }
 
     .home h1 {
