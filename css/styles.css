@@ -425,7 +425,7 @@ nav li a:hover {
         font-size: 1rem;
         line-height: 1.1;
         display: -webkit-box;
-        -webkit-line-clamp: 5;
+        -webkit-line-clamp: 6;
         /* Limit to x lines */
         -webkit-box-orient: vertical;
         overflow: hidden;
