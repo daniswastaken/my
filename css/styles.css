@@ -181,9 +181,10 @@ nav li a:hover {
 
 /* Projects Section CSS */
 .projects {
+    background-color: blue;
     position: relative;
     width: 100%;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
     display: flex;
     justify-content: center;
     /* horizontal centering */
