@@ -335,6 +335,8 @@ nav li a:hover {
         background-color: yellow;
         max-width: 100vw;
         width: 100%;
+        padding-inline: 0 0 10px 10px;
+        overflow-x: hidden;
     }
 
     nav li {
@@ -342,6 +344,7 @@ nav li a:hover {
     }
 
     nav li a {
+        padding: 1rem 1rem;
         display: block;
         text-decoration: none;
         color: var(--white);
@@ -375,7 +378,19 @@ nav li a:hover {
         background-color: cyan;
     }
 
+    .card {
+        width: 310px;
+        min-height: 360px;
+        opacity: 1;
+        outline: 3.5px solid var(--fe-white);
+    }
+
     .contact {
         background-color: magenta;
+    }
+
+    #social-wrap li {
+        border: 5px solid var(--fe-white);
+        opacity: 1;
     }
 }
