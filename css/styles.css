@@ -13,11 +13,6 @@
     --gray: #2e3042;
 }
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 html,
 body {
     margin: 0;
