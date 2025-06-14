@@ -328,7 +328,6 @@ nav li a:hover {
     body {
         max-width: 100%;
         overflow-x: hidden;
-        background-color: red;
     }
 
     nav {
@@ -382,9 +381,9 @@ nav li a:hover {
 
     .about p {
         margin-top: 0.2em;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1rem;
-        max-width: 400px; /* limit width for better readability */
+        max-width: 80vw; /* limit width for better readability */
         text-align: left;
     }
 
@@ -399,7 +398,7 @@ nav li a:hover {
     }
 
     .card {
-        width: 310px;
+        width: 75vw;
         min-height: 360px;
         opacity: 1;
         outline: 3.5px solid var(--fe-white);
@@ -426,5 +425,10 @@ nav li a:hover {
     #social-wrap li {
         border: 5px solid var(--fe-white);
         opacity: 1;
+    }
+
+    #social-wrap li {
+        width: 20vw;
+        height: 20vw;
     }
 }
