@@ -6,7 +6,7 @@ particlesJS("particles-js", {
       "value": isMobile ? 40 : 70,
       "density": {
         "enable": true,
-        "value_area": 620
+        "value_area": isMobile ? 400 : 620
       }
     },
     "color": {
