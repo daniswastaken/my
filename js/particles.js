@@ -1,4 +1,4 @@
-const isMobile = window.innerWidth <= 768;
+const isMobile = window.innerWidth <= 1024;
 
 particlesJS("particles-js", {
   "particles": {
