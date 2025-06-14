@@ -355,8 +355,17 @@ nav li a:hover {
         font-weight: 300;
     }
 
+    nav ul {
+        gap: 0rem
+    }
+
     nav li a {
-        padding: 14px 20px;
+        display: block;
+        padding: 16px;
+        text-decoration: none;
+        color: var(--white);
+        font-weight: bold;
+        transition: background 0.3s;
     }
 
     .home h1 {
