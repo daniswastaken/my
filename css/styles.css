@@ -374,8 +374,28 @@ nav li a:hover {
         background-color: indigo;
     }
 
+    .about h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin-bottom: 0.3em;
+    }
+
+    .about p {
+        margin-top: 0.2em;
+        font-weight: 400;
+        font-size: 1rem;
+        max-width: 400px; /* limit width for better readability */
+        text-align: left;
+    }
+
     .projects {
         background-color: cyan;
+    }
+
+    .projects h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin-bottom: 0.3em;
     }
 
     .card {
@@ -383,6 +403,20 @@ nav li a:hover {
         min-height: 360px;
         opacity: 1;
         outline: 3.5px solid var(--fe-white);
+    }
+
+    .card-content h3 {
+        font-size: 26px;
+    }
+
+    .card-content p {
+        font-size: 1rem;
+        line-height: 1.1;
+        display: -webkit-box;
+        -webkit-line-clamp: 5; /* Limit to x lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .contact {
