@@ -223,7 +223,7 @@ nav li a:hover {
     border-radius: 0em;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    outline: 2px solid var(--fe-white);
+    outline: 3px solid var(--fe-white);
     outline-offset: 8px;
     margin: 1.25em;
     margin-bottom: 1.25em;
@@ -319,7 +319,7 @@ nav li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--fe-white);
+    border: 3px solid var(--fe-white);
     opacity: 0.65;
     cursor: pointer;
     transition: opacity 0.3s ease, border-color 0.3s ease;
