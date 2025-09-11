@@ -1,2 +1,2 @@
 ## About
-Repository of my personal website.
+GitHub repository of my portfolio website.
