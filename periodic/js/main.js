@@ -32,7 +32,7 @@ const elements = [
     { number: 30, symbol: 'Zn', name: 'Seng', row: 4, col: 12 },
     { number: 31, symbol: 'Ga', name: 'Galium', row: 4, col: 13 },
     { number: 32, symbol: 'Ge', name: 'Germanium', row: 4, col: 14 },
-    { number: 33, symbol: 'As', name: 'Arsen', row: 4, col: 15 },
+    { number: 33, symbol: 'As', name: 'Arsenik', row: 4, col: 15 },
     { number: 34, symbol: 'Se', name: 'Selenium', row: 4, col: 16 },
     { number: 35, symbol: 'Br', name: 'Bromin', row: 4, col: 17 },
     { number: 36, symbol: 'Kr', name: 'Kripton', row: 4, col: 18 },
